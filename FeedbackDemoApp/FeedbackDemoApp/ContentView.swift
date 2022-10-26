@@ -33,6 +33,13 @@ struct ContentView: View {
                     } label: {
                         Label("Custom audio from App", systemImage: "iphone.homebutton.radiowaves.left.and.right")
                     }
+                    Button {
+                        print("Franzinha")
+                        let audio: Audio = .custom(file: "TutorialRecortado", type: "m4a")
+                        ManagerFeedback.feedbakCustom(sound: audio)
+                    } label: {
+                        Label("Franzinha", systemImage: "iphone.homebutton.radiowaves.left.and.right")
+                    }
                 }
                 Section("Default Feedbacks") {
                     Button {

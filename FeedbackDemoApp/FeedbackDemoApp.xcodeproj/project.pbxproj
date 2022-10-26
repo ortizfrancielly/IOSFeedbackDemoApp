@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B435322909AD7000DB4172 /* TutorialRecortado.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 17B435312909AD7000DB4172 /* TutorialRecortado.m4a */; };
 		546D0AF128D491AA0055DDE7 /* IOSFeedback in Frameworks */ = {isa = PBXBuildFile; productRef = 546D0AF028D491AA0055DDE7 /* IOSFeedback */; };
 		546D0AF628D495F10055DDE7 /* MyCustomAudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 546D0AF528D495F10055DDE7 /* MyCustomAudio.m4a */; };
 		54F321FA28D201C30053B65A /* FeedbackDemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F321F928D201C30053B65A /* FeedbackDemoAppApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17B435312909AD7000DB4172 /* TutorialRecortado.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = TutorialRecortado.m4a; sourceTree = "<group>"; };
 		546D0AF528D495F10055DDE7 /* MyCustomAudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyCustomAudio.m4a; sourceTree = "<group>"; };
 		54F321F628D201C30053B65A /* FeedbackDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedbackDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F321F928D201C30053B65A /* FeedbackDemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackDemoAppApp.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		546D0AF728D495F40055DDE7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				17B435312909AD7000DB4172 /* TutorialRecortado.m4a */,
 				546D0AF528D495F10055DDE7 /* MyCustomAudio.m4a */,
 			);
 			path = Resources;
@@ -152,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B435322909AD7000DB4172 /* TutorialRecortado.m4a in Resources */,
 				54F3220128D201C50053B65A /* Preview Assets.xcassets in Resources */,
 				546D0AF628D495F10055DDE7 /* MyCustomAudio.m4a in Resources */,
 				54F321FE28D201C50053B65A /* Assets.xcassets in Resources */,
@@ -295,7 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FeedbackDemoApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 8CEGBA729H;
+				DEVELOPMENT_TEAM = HPQ38SJ3W9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -324,7 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FeedbackDemoApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 8CEGBA729H;
+				DEVELOPMENT_TEAM = HPQ38SJ3W9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
